@@ -1,0 +1,79 @@
+table{
+    font-size: 14pt;
+    background: black;
+    color: white;
+    
+}
+
+tr{
+    text-align: center;
+}
+
+.del_o{
+    margin-right:40px;
+    margin-left:40px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background: rgb(182, 0, 61);
+    border: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.del_o:hover{
+    background: gray;
+}
+
+/* Customer Info */
+
+.b_cust{
+    background: rgb(182, 0, 61);
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.b_cust:hover{
+    background: #000000;
+}
+
+.it_details{
+
+    text-align: center;
+}
+
+.it_details p{
+    font-size: 20px;
+}
+
+
+/* Add Items */
+
+.add_it{
+    text-align: center;
+}
+
+input, .ad_sel{
+    height: 30px;
+    width: 250px;
+}
+
+.b_add{
+   
+    height: 35px;
+    background: rgb(182, 0, 61);
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+}
+
+.b_add:hover{
+    background: #313131;
+}

@@ -1,0 +1,49 @@
+
+/* Payment, Login and confirm */
+
+#lgdiv{
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.inlg{
+    height: 40px;
+    width: 225px;
+}
+
+.bulg{
+    height: 40px;
+    width: 120px;
+    background: rgb(182, 0, 61);;
+    border: none;
+    color: white;
+}
+
+.bulg:hover{
+    background: rgb(2, 2, 2);
+    color: white;
+}
+
+
+.b_lg_reg{
+    background: rgb(182, 0, 61);
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size:10px; 
+    padding-right:5px; 
+    padding-left:5px; 
+    float:right;
+    
+}
+
+.b_lg_reg:hover{
+    background: #000000;
+}
+
+

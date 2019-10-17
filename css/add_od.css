@@ -1,0 +1,18 @@
+/* Item Details */
+
+.b_add_order{
+
+    height: 40px;
+    background: rgb(182, 0, 61);
+    border: none;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: white;
+    text-decoration: none;
+    
+}
+
+.b_add_order:hover{
+    background: #000000;
+}
+

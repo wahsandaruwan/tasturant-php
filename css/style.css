@@ -1,0 +1,336 @@
+body{
+   /* font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5; */
+
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+}
+
+/* Global */
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+}
+
+
+/* Header */
+
+header{
+    background: rgb(0, 0, 0);
+    color: white;
+    padding-top: 30px;
+    min-height: 60px;
+    border-bottom: rgb(182, 0, 61) 3px solid;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+
+header li{
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #branding{
+    float: left;
+}
+
+header #branding h1{
+    margin: 0;
+}
+
+/* Navigation Menu */
+
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+
+header .highlight, header .current a{
+    color: rgb(184, 0, 61);
+    font-weight: bold;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #080808;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: rgb(255, 255, 255);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #666666}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
+/* Showcase */
+
+#showcase{
+    min-height: 400px;
+    width: 100%;
+    background:url('../images/head.jpg') no-repeat 0 -200px;
+    text-align: center;
+    color: white;
+}
+
+#showcase h1{
+    margin-top: 100px;
+    margin-bottom: 10px;
+    font-size: 55px;
+}
+
+#show_button{
+    padding: 20px;
+}
+
+#showcase button{
+    height:50px;
+    width: 120px;
+    background: rgb(182, 0, 61);
+    border: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+}
+
+/* Subscribe */
+#subscribe{
+    padding: 15px;
+    color: white;
+    background: rgb(0, 0, 0);
+}
+
+#subscribe h1{
+    float: left;
+}
+
+#subscribe form{
+    float: right;
+    margin-top: 20px;
+}
+
+#subscribe input[type="email"]{
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+}
+
+.b_sub{
+    margin-right:40px;
+    height: 26px;
+    background: rgb(182, 0, 61);
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+}
+
+.b_sub:hover{
+    background: #313131;
+}
+
+
+/* Our Services */
+
+#services{
+    margin-top: 20px;
+}
+
+
+
+#services .box{
+    float: left;
+    width: 30%;
+    padding: 13px;
+    text-align: center;
+}
+
+#services .box img{
+    width: 175px;
+}
+
+/* Feature Food */
+
+.prize{
+    font-size: 15pt;
+    color: rgb(182, 0, 61);
+}
+
+.b_food_order{
+    background: rgb(182, 0, 61);
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.b_food_order:hover{
+    background: #000000;
+}
+
+
+
+/* About and contact Page */
+
+.main_para{
+    text-align: justify;
+}
+
+
+.dark{
+    text-align: justify;
+    padding: 9px;
+    background: #000000;
+    color: #eee;
+}
+
+aside#sidebar{
+    float: right;
+    width: 30%;
+}
+
+
+article#main-col{
+    float: left;
+    width: 65%;
+    margin-bottom: 100px;
+}
+
+/* Contact Form */
+
+aside#sidebar .msg input, aside#sidebar .msg textarea{
+    width: 97%;
+    padding: 5px;
+}
+
+.page-title{
+    font-size: 24px;
+}
+
+/* Item Description */
+
+.it_desc{
+    text-align: center;
+}
+
+
+
+/* Footer area of all pages */
+
+footer{
+    padding: 20px;
+    margin-top: 20px;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+
+
+/* Media Queries */
+@media(max-width: 768px){
+
+    header #branding,
+    header nav,
+    header nav li,
+    #subscribe h1,
+    #subscribe form,
+    #services .box,
+    article#main-col,
+    aside#sidebar{
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+
+    header nav li{
+        padding: 0 8px 0 8px;
+    }
+
+    header{
+        padding-bottom: 20px;
+    }
+
+    #showcase h1{
+        margin-bottom: 40px;
+    }
+
+    #subscribe button{
+        display: block;
+        width: 100%;
+    }
+
+    #subscribe form input[type="email"]{
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    aside#sidebar .msg input, aside#sidebar .msg textarea, aside#sidebar .msg button{
+        width: 80%;
+        padding: 5px;
+        margin-right: 27px;
+    }
+    
+
+    #services .box img{
+        width: 150px;
+    }
+
+    #services .box{
+        padding: 4px;
+    }
+
+    #showcase h1{
+        font-size: 40px;
+    }
+
+    #showcase p{
+        font-size: 14px;
+    }
+    
+
+
+
+}
