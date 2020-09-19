@@ -1,27 +1,31 @@
-Tasturant README
+## Tasturant README
 
-=====Admin Panel====
+## =====Admin Panel====
 
-Link = http://localhost/rest/admin/adminlogin.php
+###Link = http://localhost/rest/admin/adminlogin.php
 
-Username = "admin"
+ * Username = "admin"
 
-Password = "admin"
-
-
-=====Frontend=========
-
-Link = http://localhost/rest/
+ * Password = "admin"
 
 
-=====Gmail Account Link(Subscibe and Contact)=====
+##=====Frontend=========
 
-Username = "texthimalrog@gmail.com"
-
-Password = "himal1313"
+### Link = http://localhost/rest/
 
 
-======Database=====
+## =====Gmail Account Link(Subscibe and Contact)=====
 
-tasturant.sql
+* Username = "texthimalrog@gmail.com"
+
+* Password = "himal1313"
+
+
+## ======Database=====
+
+* tasturant.sql
+
+### License : MIT
+
+### You are welcome to update this source code if it contain any miss mathces.
 
